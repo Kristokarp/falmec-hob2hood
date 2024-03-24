@@ -3,7 +3,7 @@ Hob2Hood implementation for falmec kitchen hoods.
 
 ## Prerequisites
 
-- hob2hood compatible kitchen hob (AEG, Electolux, ..etc)
+- hob2hood compatible kitchen hob (AEG, Electrolux, ..etc)
 - falmec kitchen hood that supports remote control
 - Arduino board (I've tested with uno & micro)
 - infrared sensor (I've used TSOP34838)
