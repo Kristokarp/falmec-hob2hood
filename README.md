@@ -27,3 +27,9 @@ Hob2Hood implementation for falmec kitchen hoods.
 - upload the provided script to your arduino
 - make sure your IR sensor has direct vision to your hob
 - turn on your hob and see the falmec hood turn on its lights, this means that you made it!
+
+### Debugging
+
+If your hood does not seem to receive the commands then check the serial monitor for command debug logs, those are printed every time your IR sensor receives a command from your hob. If you see the logs then it means that you can successfully read the commands from the hob side and the problem is somewhere with the RF transmitter. For me it helped when I attached an antenna to the transmitter.
+
+If you don't even get the logs from the IR sensor then it means that you probably need to double check your connections or have a problem with the sensor itself.
